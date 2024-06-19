@@ -1,0 +1,11 @@
+{
+  "name": "01.data_encryptor_cryptopkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AhindraD",
+  "license": "ISC",
+  "description": ""
+}
