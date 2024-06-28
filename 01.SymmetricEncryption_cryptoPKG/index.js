@@ -22,7 +22,7 @@ function decrypt(encrypted, key, iv) {
 }
 
 const key = crypto.randomBytes(32);
-const iv = crypto.randomBytes(16);
+const iv = crypto.randomBytes(16);//initialization vector
 
 const Encrypted = DATA.map((elem, indx) => encrypt(elem, key, iv));
 console.log('encrypted: ', Encrypted);
