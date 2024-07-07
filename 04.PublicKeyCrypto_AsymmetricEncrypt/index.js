@@ -22,7 +22,7 @@ console.log('verified: ', verified);
 const message2 = "this is another secret message";
 const message_bytes2 = decodeUTF8(message2);
 const encrypted2=nacl.box(message_bytes2,key_pair.publicKey,key_pair.secretKey);
-console.log('encrypted: ', encrypted);
+console.log('encrypted: ', encrypted2);
 
 //decrypted with private key    
 const decrypted=nacl.box.open(encrypted2,key_pair.secretKey,key_pair.publicKey);
